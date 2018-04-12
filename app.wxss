@@ -1,0 +1,18 @@
+@import '/pages/components/tabbar/tabbar.wxss';
+
+page {
+  height: 100%;
+}
+
+.page-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.page-info {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
