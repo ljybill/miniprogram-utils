@@ -1,0 +1,6 @@
+<view class='com-tabbar'>
+  <view bindtap='handleSwitchRouter' data-url='{{item.pagePath}}' class='com-tabbar-item {{item.active?"com-tabbar-item_active":""}}' wx:for="{{tabbarConfig}}" wx:key="item.pagePath">
+    <image class='com-tabbar-icon {{index === 1?"com-tabbar-icon-super":""}}' src='{{item.active?item.selectedIconPath:item.iconPath}}'></image>
+    <view wx:if='{{index !== 1}}' class='com-tabbar-text'>{{item.text}}</view>
+  </view>
+</view>
