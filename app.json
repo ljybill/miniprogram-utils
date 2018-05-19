@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/center/index",
+    "pages/auth/index",
     "pages/mine/index"
   ],
   "window": {
@@ -26,6 +27,12 @@
         "text": "发现",
         "iconPath": "icon/center_nor.png",
         "selectedIconPath": "icon/center_pre.png"
+      },
+      {
+        "pagePath": "pages/auth/index",
+        "text": "权限",
+        "iconPath": "icon/auth_nor.png",
+        "selectedIconPath": "icon/auth_pre.png"
       },
       {
         "pagePath": "pages/mine/index",

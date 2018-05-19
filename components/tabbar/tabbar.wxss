@@ -1,1 +1,30 @@
 /* components/tabbar/tabbar.wxss */
+
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.tabbar-item {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 4px 5px 0;
+}
+
+.tabbar-item-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.tabbar-item-title {
+  font-size: 10px;
+  line-height: 10px;
+}

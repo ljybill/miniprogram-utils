@@ -1,4 +1,5 @@
 <view class='page-wrapper'>
     <image style='width:100%;' src='/image/page1.jpeg'></image>
     <view class='page-info'>page1</view>
+    <tabbar></tabbar>
 </view>

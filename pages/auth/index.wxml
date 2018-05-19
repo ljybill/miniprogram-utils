@@ -1,5 +1,5 @@
 <view class='page-wrapper'>
   <image style='width:100%;' src='/image/page3.jpeg'></image>
-  <view class='page-info'>page3</view>
+  <view class='page-info'>权限测试页</view>
   <tabbar></tabbar>
 </view>

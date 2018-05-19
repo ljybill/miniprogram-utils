@@ -18,6 +18,13 @@ module.exports = [
   },
   {
     "active": false,
+    "pagePath": "pages/auth/index",
+    "text": "权限",
+    "iconPath": "/icon/auth_nor.png",
+    "selectedIconPath": "/icon/auth_pre.png"
+  },
+  {
+    "active": false,
     "pagePath": "pages/mine/index",
     "text": "我的",
     "iconPath": "/icon/mine_nor.png",
