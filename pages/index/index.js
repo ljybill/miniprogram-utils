@@ -30,6 +30,8 @@ const selfApi = {
     this.setData({
       tabbarConfig: setRouterConfig(app.globalData.tabbarConfig, path)
     })
+  },
+  onReady: function () {
   }
 }
 Page(Object.assign({}, tabbarApi, selfApi))
