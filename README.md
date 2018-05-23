@@ -1,6 +1,10 @@
 # miniprogram-custom-bottom
 微信小程序自定义底部导航栏（原生语法）
 
+## 5月23更新
+
+通过组件的方式重新实现了tabbar，耦合程度更低，更灵活，请切换到[com-tabbar分支](https://github.com/ljybill/miniprogram-custom-bottom/tree/com-tabbar)查看代码。
+
 ## 效果预览图
 
 ![](./gitpic/小程序自定义导航栏.gif)
