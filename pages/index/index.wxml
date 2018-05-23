@@ -1,5 +1,6 @@
 <view class='page-wrapper'>
     <image style='width:100%;' src='/image/page1.jpeg'></image>
+    <button bindtap='switchAuth'>权限切换</button>
     <view class='page-info'>page1</view>
-    <tabbar></tabbar>
+    <tabbar auth='{{auth}}'></tabbar>
 </view>

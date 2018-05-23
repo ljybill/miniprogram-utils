@@ -6,9 +6,15 @@ const selfApi = {
   // 虽然我们使用了全局变量存储状态，但是他不是响应式的
   // 所以要在本地data中copy一个副本
   data: {
+    auth: 1
   },
   onLoad: function () { },
   onReady: function () {
+  },
+  switchAuth() {
+    this.setData({
+      auth: this.data.auth === 1 ? 10 : 1
+    })
   }
 }
 Page(selfApi)
