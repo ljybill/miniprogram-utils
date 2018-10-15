@@ -7,7 +7,7 @@
 
 ## 效果预览图
 
-![](./gitpic/小程序自定义导航栏.gif)
+![](http://blog.ljybill.com/images/custom-tabbar.gif)
 
 ## 起步
 
