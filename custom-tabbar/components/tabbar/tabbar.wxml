@@ -1,0 +1,6 @@
+<view class='tabbar'>
+  <view bindtap='handleRouterSwitch' wx:for='{{routers}}' wx:key='{{item.pagePath}}' data-path='{{item.pagePath}}' wx:if='{{auth > item.auth}}' class='tabbar-item'>
+    <image class='tabbar-item-icon' src='{{item.active ? item.selectedIconPath : item.iconPath}}'></image>
+    <view class='tabbar-item-title'>{{item.text}}</view>
+  </view>
+</view>

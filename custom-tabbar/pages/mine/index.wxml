@@ -1,6 +1,5 @@
-<import src="/pages/components/tabbar/tabbar" />
 <view class='page-wrapper'>
   <image style='width:100%;' src='/image/page3.jpeg'></image>
   <view class='page-info'>page3</view>
-  <template wx:if='{{isHideTabbar}}' is='tabbar' data="{{tabbarConfig}}"/>
+  <tabbar></tabbar>
 </view>

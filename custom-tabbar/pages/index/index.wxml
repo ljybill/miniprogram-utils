@@ -1,6 +1,6 @@
-<import src="/pages/components/tabbar/tabbar"/>
 <view class='page-wrapper'>
     <image style='width:100%;' src='/image/page1.jpeg'></image>
+    <button bindtap='switchAuth'>权限切换</button>
     <view class='page-info'>page1</view>
-    <template wx:if='{{isHideTabbar}}' is='tabbar' data="{{tabbarConfig}}"/>
+    <tabbar auth='{{auth}}'></tabbar>
 </view>
