@@ -1,0 +1,24 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 50rpx;
+}
+
+navigator, button {
+  margin-bottom: 20rpx;
+}
+
+navigator {
+  background: #f8f8f8;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.switch {
+  margin-top: 80rpx;
+}

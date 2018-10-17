@@ -1,0 +1,17 @@
+<view class="intro">仿VueRouter的路由守卫功能</view>
+
+<text class='header'>navigator 组件不会受到影响</text>
+<navigator url='/index/open'>open</navigator>
+<navigator url='/index/open'>close</navigator>
+
+<text class='header'>通过JS调用才可以</text>
+<button data-path='/index/open' bindtap='gotoPage'>open page</button>
+<button data-path='/index/close' bindtap='gotoPage'>close page</button>
+
+<!-- ---------------- -->
+
+<view class='switch'>
+  <text>用户授权</text>
+  <switch bindchange='handleSwitch'></switch>
+</view>
+<view>用户未授权的情况下，点击open的时候会跳转到close页面</view>
