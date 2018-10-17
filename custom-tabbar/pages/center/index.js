@@ -1,8 +1,10 @@
+// 获取app实例，里面有app.js定义的各个对象
 const app = getApp()
-import { setRouterConfig } from '../../utils/util.js'
-
-const selfApi = {
+// 将公共方法提取出来
+Page({
   data: {
-  }
-}
-Page(selfApi)
+    auth: 0
+  },
+  onLoad: function () { },
+  onReady: function () { }
+})
