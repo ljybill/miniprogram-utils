@@ -1,5 +1,5 @@
 <view class='page-wrapper'>
-  <image style='width:100%;' src='/image/page3.jpeg'></image>
+  <image style='width:100%;' src='http://oomxfjxci.bkt.clouddn.com/page3.jpeg'></image>
   <view class='page-info'>page3</view>
   <tabbar activeIdx='3'></tabbar>
 </view>
