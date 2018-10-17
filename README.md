@@ -10,7 +10,7 @@
 
 ***
 
-[小程序的Promise不支持finally?]()
+[小程序的Promise不支持finally?](./promise-polyfill)
 
 *** 
 

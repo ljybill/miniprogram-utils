@@ -1,0 +1,1 @@
+<button bindtap='handleTap'>tap me!</button>
