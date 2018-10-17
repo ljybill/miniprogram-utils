@@ -14,7 +14,7 @@
 
 *** 
 
-[小程序仿VueRouter路由守卫实现]()
+[小程序仿VueRouter路由守卫实现](./router-defend)
 
 ## 最后
 
