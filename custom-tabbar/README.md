@@ -3,7 +3,7 @@
 
 ## 代码片段地址
 
-可直接点击链接在微信开发者工具上查看 [wechatide://minicode/4c6GLemy7j31](wechatide://minicode/4c6GLemy7j31)
+可直接点击链接在微信开发者工具上查看 [wechatide://minicode/d3Cfrfmi7L3v](wechatide://minicode/d3Cfrfmi7L3v)
 
 ## 效果预览图
 

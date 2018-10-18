@@ -7,6 +7,7 @@
   border-top: 0.5px solid #d5d5d5;
   display: flex;
   font-size: 0;
+  background: #fff;
 }
 .tabbar-item {
   flex: 1;
@@ -18,6 +19,7 @@
 }
 .tabbar-item-icon {
   margin-bottom: 6rpx;
+  height: 56rpx;
 }
 .tabbar-item-icon image {
   width: 56rpx;
