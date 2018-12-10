@@ -6,7 +6,7 @@
 
 ## 基本思路
 
-小程序的Promise是不支持polyfill方法的，这样有一些操作就不太方便玩了，比如hideLoading，总不能在resolve和reject写两遍吧，这样不优雅。其实稍微有些经验的前端开发工程师都清楚，如果一个东西原生不支持，可以引入他的polyfill库，小程序上也是从这个思路出发的，不过小程序有两个比较坑的地方，就是我们取不到全局变量，换句话说就是直接`console.log(this)`,结果是`undefined`。
+小程序的Promise是不支持finally方法的，这样有一些操作就不太方便玩了，比如hideLoading，总不能在resolve和reject写两遍吧，这样不优雅。其实稍微有些经验的前端开发工程师都清楚，如果一个东西原生不支持，可以引入他的polyfill库，小程序上也是从这个思路出发的，不过小程序有两个比较坑的地方，就是我们取不到全局变量，换句话说就是直接`console.log(this)`,结果是`undefined`。
 
 <!-- more -->
 
