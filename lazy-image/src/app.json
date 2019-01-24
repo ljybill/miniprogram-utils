@@ -1,11 +1,24 @@
 {
-  "pages":[
-    "index/index"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "pages": ["index/index", "index/native"],
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#fdb975",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "index/index",
+        "text": "组件"
+      },
+      {
+        "pagePath": "index/native",
+        "text": "原生"
+      }
+    ]
   }
 }

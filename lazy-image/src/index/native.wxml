@@ -1,0 +1,9 @@
+<scroll-view scroll-y style="height: 100%;">
+    <view class="list">
+        <view class="item" wx:for="{{list}}" wx:key="{{index}}">
+            <view class="item-img">
+                <image style="width: 300rpx; height: 300rpx;" src="{{item}}" lazy-load width="300" height="300" />
+            </view>
+        </view>
+    </view>
+</scroll-view>
