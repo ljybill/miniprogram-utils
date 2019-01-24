@@ -1,0 +1,8 @@
+<view class="image-box" style="width: {{width}}rpx; height: {{height}}rpx;">
+    <image src="{{_src}}" binderror="handleError" bindload="handleLoad"/>
+    <!-- start -->
+    <!-- 此处可有可无，也可以通过background-image 设置默认缺省图 -->
+    <image wx:if="{{loading}}" class="loading" src="default.png" />
+    <!-- end -->
+    <image wx:if="{{loading}}" class="loading-icon" src="loading.gif" />
+</view>

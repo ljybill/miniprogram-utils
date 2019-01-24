@@ -1,0 +1,7 @@
+<view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="{{index}}">
+        <view class="item-img">
+            <lazy-image src="{{item}}" width="300" height="300"></lazy-image>
+        </view>
+    </view>
+</view>
