@@ -1,0 +1,13 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.navigator{
+  text-align: center;
+  margin: 10rpx 0;
+  border: 1px solid #eee;
+  border-left: none;
+  border-right: none;
+  padding: 10rpx 0;
+}

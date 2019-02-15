@@ -1,0 +1,3 @@
+<wxs src="../helpers/event.wxs" module="evt" />
+<view class="a">我是一行文本，点击下面的按钮修改我的颜色</view>
+<button style="margin-top: 10rpx;" bind:tap="{{evt.change}}">修改状态</button>

@@ -1,0 +1,3 @@
+<view class="intro">wxs使用</view>
+<navigator url="/index/base" class="navigator">wxs基本使用</navigator>
+<navigator url="/index/event" class="navigator">wxs响应事件</navigator>

@@ -1,0 +1,33 @@
+function formatNumber(n) {
+  var str = n.toString();
+  return str[1] ? str : "0" + str;
+}
+
+function formatTime(timestamp) {
+  // eslint-disable-next-line
+  var date = getDate(timestamp);
+  var hour = date.getHours();
+  var minute = date.getMinutes();
+  var second = date.getSeconds();
+
+  var t2 = [hour, minute, second].map(formatNumber).join(":");
+
+  return t2;
+}
+
+function formatDate(timestamp) {
+  // eslint-disable-next-line
+  var date = getDate(timestamp);
+  var year = date.getFullYear();
+  var month = date.getMonth() + 1;
+  var day = date.getDate();
+
+  var t1 = [year, month, day].map(formatNumber).join("-");
+
+  return t1;
+}
+
+module.exports = {
+  formatTime: formatTime,
+  formatDate: formatDate
+};

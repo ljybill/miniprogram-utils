@@ -1,0 +1,6 @@
+<wxs src="../helpers/date.wxs" module="date" />
+<view>当前时间戳：{{currentTime}}</view>
+<button bind:tap="updateCurrent">更新当前时间</button>
+
+<view>格式化日期：{{date.formatDate(currentTime)}}</view>
+<view>格式化时间：{{date.formatTime(currentTime)}}</view>

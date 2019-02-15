@@ -1,0 +1,11 @@
+module.exports = {
+  change: function(evt, ins) {
+    var instance = ins.selectComponent(".a");
+    console.log(JSON.stringify(instance));
+    if (instance.hasClass("disabled")) {
+      instance.removeClass("disabled");
+    } else {
+      instance.addClass("disabled");
+    }
+  }
+};
