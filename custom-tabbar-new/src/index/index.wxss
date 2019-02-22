@@ -1,0 +1,4 @@
+.hr {
+    margin: 10rpx 0;
+    border-top: 10rpx solid #eee;
+}

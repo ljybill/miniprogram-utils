@@ -1,0 +1,12 @@
+<view class="tab-bar" style="background-color: {{config.backgroundColor}};">
+    <view class="tab-bar-border"></view>
+    <view class="tab-bar-list">
+        <view class="tab-bar-item" style="color: {{item.idx === activeIdx ? config.selectedColor : config.color}};" wx:for="{{list}}" wx:key="{{item.pagePath}}" data-page-path="{{item.pagePath}}" bind:tap="switchTab">
+            <view class="tab-bar-item-icon">
+                <image binderror="handleError" src="{{item.idx === activeIdx ? item.selectedIconPath : item.iconPath}}" />
+                <view wx:if="{{item.redDot}}" class="red-dot"></view>
+            </view>
+            <view class="tab-bar-item-text">{{item.text}}</view>
+        </view>
+    </view>
+</view>

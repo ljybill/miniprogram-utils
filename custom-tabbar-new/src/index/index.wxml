@@ -1,0 +1,6 @@
+<view>直接复制custom-tab-bar文件夹到你的项目，并配置全局组件即可使用</view>
+<view class="hr"></view>
+<view>设置红点方法测试</view>
+<button bind:tap="setRedDot">设置红点</button>
+<button bind:tap="hideRedDot">消除红点</button>
+<custom-tab-bar></custom-tab-bar>
