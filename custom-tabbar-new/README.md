@@ -27,7 +27,7 @@
 
 源码地址
 
-- [微信小程序代码片段](https://developers.weixin.qq.com/s/NCbTKnmC7h6U)
+- [微信小程序代码片段](https://developers.weixin.qq.com/s/qlbJpdmz7N7s)
 
 本次代码**拷贝之后可以直接使用**，具体操作如下
 
